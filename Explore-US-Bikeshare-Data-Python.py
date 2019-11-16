@@ -15,6 +15,7 @@ def city_input():
     asking the user with the desired city to analyze
     '''
     print('Hey! Let\'s explore some US bikeshare data!')
+    print('Are you ready?')
     print('  ')
     print('Enter the city you want to explore the data for:')
     print('Chicago')
@@ -35,7 +36,7 @@ def city_input():
             print("\nWashington City! the great capital in the world\n")
             return 'washington'
         else:
-            print('Sorry, I do not understand your input. Please input either '
+            print('Sorry, I do not understand your input. Please write either '
                   'Chicago, New York or Washington.')
 
 def get_time():
@@ -82,7 +83,7 @@ def month_day_info(df, day_m):
         maximum_day_month = max_day_month(df, month)
 
         while (True):
-            ask = """ \n Which day of the month? \n
+            ask = """ \n Which day of the month do you like to select? \n
             Please type your response as an integer between 1 and """
             ask  = ask + str(maximum_day_month) + "\n"
             day_m = input(ask)
@@ -93,7 +94,7 @@ def month_day_info(df, day_m):
                     month_day.append(day_m)
                     return month_day
             except ValueError:
-                print("That's not a numeric value")
+                print("That's not a numeric value , please enter a numeric value :)")
     else:
         return 'none'
 
@@ -135,7 +136,8 @@ def time_filters(df, time, month, week_day, md):
     Result:
     df - dataframe to be used for final calculation
     '''
-    print('Data loaded. Now computing statistics... \n')
+    print('Data loaded. Now computing the statistics... \n')
+    print('Awesome \n')
     #Filter by Month
     if time == 'month':
         months = ['january', 'february', 'march', 'april', 'may', 'june']
