@@ -14,7 +14,10 @@ In this project, I have used data provided by Udacity portal. I have compared th
 You can run the code using any terminal but first you have to link the cvs files with the terminal.
 
 # files used 
-
+Explore-US-Bikeshare-Data-Python.py
+Chicago.cvs
+New York City.cvs
+Washington.cvs
 
 # Credits
 
