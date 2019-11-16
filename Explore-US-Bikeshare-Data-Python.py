@@ -73,8 +73,8 @@ def month_info(m):
         return month.strip().lower()
     else:
         return 'none'
-
-def month_day_info(df, day_m):     # Asks the user for a month and a day of month,
+    # Asks the user for a month and a day of month
+def month_day_info(df, day_m):
     month_day = []
     if day_m == "day_of_month":
         month = month_info("month")
