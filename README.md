@@ -1,15 +1,13 @@
-### Date created
-Include the date you created this project and README file.
+# Date created
+16/Nov/2019 
 
-### Project Title
-Replace the Project Title
+# Project Title
+Explore US Bikeshare Data Udacity Python
 
-### Description
-Describe what your project is about and what it does
+# Description
 
-### Files used
-Include the files used
+# files used 
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
+# Credits
 
