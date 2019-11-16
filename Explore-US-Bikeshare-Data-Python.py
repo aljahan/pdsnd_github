@@ -83,7 +83,7 @@ def month_day_info(df, day_m):     # Asks the user for a month and a day of mont
         maximum_day_month = max_day_month(df, month)
 
         while (True):
-            ask = """ \n Which day of the month? \n
+            ask = """ \n Which day of the month do you to select? \n
             Please type your response as an integer between 1 and """
             ask  = ask + str(maximum_day_month) + "\n"
             day_m = input(ask)
@@ -94,7 +94,7 @@ def month_day_info(df, day_m):     # Asks the user for a month and a day of mont
                     month_day.append(day_m)
                     return month_day
             except ValueError:
-                print("That's not a numeric value")
+                print("That's not a numeric value , please enter a numeric value :)")
     else:
         return 'none'
 
