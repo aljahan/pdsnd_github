@@ -83,7 +83,7 @@ def month_day_info(df, day_m):     # Asks the user for a month and a day of mont
         maximum_day_month = max_day_month(df, month)
 
         while (True):
-            ask = """ \n Which day of the month do you to select? \n
+            ask = """ \n Which day of the month do you like to select? \n
             Please type your response as an integer between 1 and """
             ask  = ask + str(maximum_day_month) + "\n"
             day_m = input(ask)
@@ -136,7 +136,8 @@ def time_filters(df, time, month, week_day, md):
     Result:
     df - dataframe to be used for final calculation
     '''
-    print('Data loaded. Now computing statistics... \n')
+    print('Data loaded. Now computing the statistics... \n')
+    print('Awesome \n')
     #Filter by Month
     if time == 'month':
         months = ['january', 'february', 'march', 'april', 'may', 'june']
