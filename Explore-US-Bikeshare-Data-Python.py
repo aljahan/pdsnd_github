@@ -15,6 +15,7 @@ def city_input():
     asking the user with the desired city to analyze
     '''
     print('Hey! Let\'s explore some US bikeshare data!')
+    print('Are you ready?')
     print('  ')
     print('Enter the city you want to explore the data for:')
     print('Chicago')
@@ -35,7 +36,7 @@ def city_input():
             print("\nWashington City! the great capital in the world\n")
             return 'washington'
         else:
-            print('Sorry, I do not understand your input. Please input either '
+            print('Sorry, I do not understand your input. Please write either '
                   'Chicago, New York or Washington.')
 
 def get_time():
